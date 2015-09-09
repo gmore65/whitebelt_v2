@@ -1,0 +1,69 @@
+@import 'animate_min';
+@import 'lightSpeedIn';
+
+
+//colors
+$color_silver_chalice_approx: #aeaca8;
+$white: white;
+$color_storm_dust_approx: #666666;
+$blue: blue;
+$color_seance_approx: purple;
+$color_brown_approx: #994c00;
+$black: black;
+
+//fonts
+$font_0: Indie Flower;
+$font_1: cursive;
+
+//urls
+$url_0: url(../images/brown_background.jpg);
+
+html {
+	background: $url_0 no-repeat center center fixed;
+	background-size: cover;
+}
+nav {
+	background-color: $color_silver_chalice_approx;
+	color: $white;
+}
+.icon {
+	height: 50%;
+	width: 50%;
+}
+.main_title {
+	font-family: $font_0, $font_1;
+	font-size: 300%;
+}
+.shadow {
+	//Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: -1px 5px 0 $color_storm_dust_approx;
+}
+.white {
+	color: $white;
+}
+.blue {
+	color: $blue;
+}
+.purple {
+	color: $color_seance_approx;
+}
+.brown {
+	color: $color_brown_approx;
+}
+.black {
+	color: $black;
+}
+header.icon {
+	width: 100px;
+	float: left;
+}
+aside.title {
+	width: 400px;
+	float: none;
+}
+ul.nolisttype {
+	list-style-type: none;
+}
+li.inline {
+	display: inline;
+}

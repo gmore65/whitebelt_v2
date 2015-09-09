@@ -1,0 +1,26 @@
+html {background: url("../images/brown_background.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+nav{background-color: #aeaca8;
+  color: white;
+    }
+header.icon{width: 100px;
+  float: left;}
+.icon{height: 50%;
+  width: 50%
+}
+aside.title{width: 400px;
+float: none;}
+ul.nolisttype{list-style-type: none;}
+li.inline{display: inline;}
+.main_title{font-family: 'Indie Flower', cursive;
+  font-size: 300%;}
+.shadow {
+  	text-shadow: -1px 5px 0px #666666;}
+.white {color: white;}
+.blue {color: blue;}
+.purple {color: purple;}
+.brown {color: #994c00;}
+.black {color: black;}
