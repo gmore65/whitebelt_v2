@@ -14,6 +14,7 @@ $black: black;
 //fonts
 $font_0: Indie Flower;
 $font_1: cursive;
+$font_2: Roboto;
 
 //urls
 $url_0: url(../images/brown_background.jpg);
@@ -67,3 +68,11 @@ ul.nolisttype {
 li.inline {
 	display: inline;
 }
+p {
+	font-family: $font_2, sans-serif;
+	font-weight: 400;
+	font-size: 150;
+	}
+
+
+
